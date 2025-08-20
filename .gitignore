@@ -1,0 +1,131 @@
+# Dependencies
+/vendor/
+/node_modules/
+composer.lock
+
+# Environment files
+.env
+.env.local
+.env.production
+env.example
+
+# Logs
+/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Python virtual environment
+myenv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Storage directories (exclude sensitive data)
+/storage/uploads/audio/files/*.mp3
+/storage/uploads/audio/files/*.m4a
+/storage/uploads/audio/files/*.wav
+/storage/uploads/audio/json/*.json
+/storage/uploads/audio/logs/*.log
+/storage/uploads/vision/files/*.jpg
+/storage/uploads/vision/files/*.png
+/storage/uploads/vision/files/*.jpeg
+/storage/uploads/vision/json/*.json
+/storage/uploads/vision/logs/*.log
+
+# Keep storage directory structure
+!/storage/uploads/audio/files/.gitkeep
+!/storage/uploads/audio/json/.gitkeep
+!/storage/uploads/audio/logs/.gitkeep
+!/storage/uploads/vision/files/.gitkeep
+!/storage/uploads/vision/json/.gitkeep
+!/storage/uploads/vision/logs/.gitkeep
+
+# Database files
+*.sql
+*.db
+*.sqlite
+
+# Configuration files with sensitive data
+config.php
+database.php
+
+# Session files
+sessions/
+*.sess
+
+# Cache files
+cache/
+*.cache
+
+# Test files
+test_*.php
+debug_*.html
+*.test.php
